@@ -1,0 +1,11 @@
+{
+  "description": "A status indicator menu for Steam®. Not affiliated with Valve Inc.",
+  "name": "Steam Indicator",
+  "uuid": "steam-indicator@baer.space",
+  "gettext-domain": "steam-indicator",
+  "shell-version": [
+    "3.20"
+  ],
+  "url": "https://github.com/synapsos/gnome-shell-extension-steam-indicator",
+  "version": 1
+}

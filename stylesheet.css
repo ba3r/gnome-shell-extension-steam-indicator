@@ -1,0 +1,16 @@
+.steam-icon {
+    icon-size: 24px;
+}
+
+.menu-icon {
+    icon-size: 16px;
+}
+
+.quick-action {
+    padding: 4px;
+    /*border-color: transparent;*/
+}
+
+.quick-action:hover {
+    padding: 5px;
+}

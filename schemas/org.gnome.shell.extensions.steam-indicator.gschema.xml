@@ -1,0 +1,27 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.steam-indicator" path="/org/gnome/shell/extensions/steam-indicator/">
+    <key name="steam-id" type="s">
+      <default>""</default>
+      <summary>Steam 64 ID</summary>
+      <description>Numerical Steam ID used to fetch your profile. You can find yours at `http://steamid.co`. Or simply enter your profile URL into the preferences field and hit Enter.</description>
+    </key>
+    <key name="api-key" type="s">
+      <default>"2F5F3035C68A07F1C76FB6EBACBAB888"</default>
+      <summary>Steam Web API Key</summary>
+      <description>Default API Key is mine. You can get your own at `http://steamcommunity.com/dev/apikey`.</description>
+    </key>
+    <key name="menu-items" type="s">
+      <default>"['games','profile','store','community','music',\
+'activate','activity','friends','groups','inventory','screenshots','servers',\
+'tools','downloads','settings','steamVR','bigPicture','exit','restart']"
+      </default>
+      <summary>Shown menu items</summary>
+      <description>Set which menuitems get shown and in which order.</description>
+    </key>
+    <key name="max-games" type="i">
+      <default>10</default>
+      <summary>Number of games listed</summary>
+      <description>Set how many games are shown in Games submenu.</description>
+    </key>
+  </schema>
+</schemalist>

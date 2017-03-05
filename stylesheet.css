@@ -1,16 +1,26 @@
 .steam-icon {
-    icon-size: 24px;
+    icon-size: 22px;
 }
 
 .menu-icon {
     icon-size: 16px;
 }
 
+/* menu-icons that act as buttons */
 .quick-action {
     padding: 4px;
-    /*border-color: transparent;*/
+    border-width: 1px; /* fixes weird border behaviour in Adwaita */
+    border-color: transparent;
 }
 
 .quick-action:hover {
-    padding: 5px;
+    border-width: 1px;
+    border-color: #d3dae3; /* change to fit Shell theme, e.g. #ffffff */
+}
+
+/* playback buttons */
+.music-player {
+    padding-top: 4px;
+    spacing: 8px;
+    padding-bottom: 4px;
 }

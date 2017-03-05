@@ -26,6 +26,10 @@
 
 const Gettext = imports.gettext;
 const Gio = imports.gi.Gio;
+const Soup = imports.gi.Soup;
+const GObject = imports.gi.GObject;
+const Gtk = imports.gi.Gtk;
+const Lang = imports.lang;
 
 const Config = imports.misc.config;
 const ExtensionUtils = imports.misc.extensionUtils;
@@ -90,3 +94,18 @@ function getSettings(schema) {
     return new Gio.Settings({ settings_schema: schemaObj });
 }
 
+// @verb, e.g. 'GET'
+// @callback gets called with JSON response
+function httpRequest(verb, url, params, callback) {
+    let _httpSession = new Soup.Session();
+    let message = Soup.form_request_new_from_hash(verb, url, params);
+
+    _httpSession.queue_message(message,
+        function (_httpSession, message) {
+            if (message.status_code !== 200)
+                return;
+            let json = JSON.parse(message.response_body.data);
+            callback(json);
+        }
+    );
+}

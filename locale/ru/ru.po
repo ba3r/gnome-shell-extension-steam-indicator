@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: steam-indicator\n"
+"POT-Creation-Date: 2017-01-20 07:47+0100\n"
+"PO-Revision-Date: 2017-01-20 09:11+0100\n"
+"Language-Team: Michael Baer <michael@baer.space>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: Michael Baer <michael@baer.space>\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: extension.js:35
+msgid "Games"
+msgstr "Игры"
+
+#: extension.js:36
+msgid "Library"
+msgstr "Библиотека"
+
+#: extension.js:48 extension.js:49
+msgid "Profile"
+msgstr "Профиль"
+
+#: extension.js:52
+msgid "Online"
+msgstr "В сети"
+
+#: extension.js:53
+msgid "Busy"
+msgstr "Не беспокоить"
+
+#: extension.js:54
+msgid "Away"
+msgstr "Нет на месте"
+
+#: extension.js:55
+msgid "Looking to Play"
+msgstr "Хочет еграть"
+
+#: extension.js:56
+msgid "Looking to Trade"
+msgstr "Хочет обменяться"
+
+#: extension.js:57
+msgid "Offline"
+msgstr "Не в сети"
+
+#: extension.js:72 extension.js:73
+msgid "Store"
+msgstr "Магазин"
+
+#: extension.js:76
+msgid "Featured"
+msgstr "Иопулярное"
+
+#: extension.js:77
+msgid "Explore"
+msgstr "Введение"
+
+#: extension.js:78
+msgid "Curators"
+msgstr "Кураторы"
+
+#: extension.js:79
+msgid "News"
+msgstr "Новости"
+
+#: extension.js:80
+msgid "Stats"
+msgstr "Статистика"
+
+#: extension.js:81
+msgid "Account"
+msgstr "Аккаунт"
+
+#: extension.js:88 extension.js:89
+msgid "Community"
+msgstr "Сообщество"
+
+#: extension.js:92
+msgid "Home"
+msgstr "Гтавная"
+
+#: extension.js:93
+msgid "Discussions"
+msgstr "Обсуждения"
+
+#: extension.js:94
+msgid "Workshop"
+msgstr "Мастерская"
+
+#: extension.js:95
+msgid "Greenlight"
+msgstr "Greenlight"
+
+#: extension.js:96
+msgid "Market"
+msgstr "Торговая площадка"
+
+#: extension.js:103
+msgid "Music"
+msgstr "Музыка"
+
+#: extension.js:104
+msgid "Browse Music"
+msgstr "Вся музыка"
+
+#: extension.js:112
+msgid "Shuffle"
+msgstr "Перемешать"
+
+#: extension.js:113
+msgid "Music Player"
+msgstr "Музыкальный проигрыватель"
+
+#: extension.js:122
+msgid "Activate Product"
+msgstr "Активировать в Steam"
+
+#: extension.js:123
+msgid "Friend Activity"
+msgstr "Активность друзей"
+
+#: extension.js:124
+msgid "Groups"
+msgstr "Группы"
+
+#: extension.js:125
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: extension.js:126
+msgid "Tools"
+msgstr "Инструменты"
+
+#: extension.js:127
+msgid "Servers"
+msgstr "Серверы"
+
+#: extension.js:128
+msgid "Screenshots"
+msgstr "Скриншоты"
+
+#: extension.js:129
+msgid "Inventory"
+msgstr "Инвентарь"
+
+#: extension.js:130
+msgid "Settings"
+msgstr "Настройки"
+
+#: extension.js:131
+msgid "Big Picture"
+msgstr "Big Picture"
+
+#: extension.js:132
+msgid "Friends"
+msgstr "Друзья"
+
+#: extension.js:133
+msgid "SteamVR"
+msgstr "SteamVR"
+
+#: extension.js:134
+msgid "Exit Steam"
+msgstr "Выйти из Steam"

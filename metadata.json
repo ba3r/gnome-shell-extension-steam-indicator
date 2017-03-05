@@ -3,6 +3,7 @@
   "name": "Steam Indicator",
   "uuid": "steam-indicator@baer.space",
   "gettext-domain": "steam-indicator",
+  "settings-schema":  "org.gnome.shell.extensions.steam-indicator",
   "shell-version": [
     "3.20"
   ],
